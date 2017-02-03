@@ -1,0 +1,30 @@
+{
+    "name": "imforza/wp-google-maps-api",
+    "description": "WP Google Maps API",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Santiago Garza"
+        }
+    ],
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "stevegrunwell/wp-enforcer": "^0.4.1",
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "archive": {
+        "exclude": ["/.*", "/composer.lock"]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "wp-enforcer"
+        ],
+        "post-update-cmd": [
+            "wp-enforcer"
+        ]
+    }
+}
