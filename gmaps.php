@@ -7,13 +7,14 @@
 
 /*
  * Plugin Name: WP Google Maps API
- * Plugin URI: https://github.com/wp-api-libraries/wp-google-maps-api
- * Description: Perform API requests to Google Maps API.
- * Author: WP API Libraries, sgarza
+ * Plugin URI: https://imforza.com
+ * Description: Simple library for displaying custom maps.
+ * Author: imFORZA
  * Version: 1.0.0
- * Author URI: https://wp-api-libraries.com
- * GitHub Plugin URI: https://github.com/wp-api-libraries/wp-google-maps-api
+ * Author URI: https://imforza.com
+ * GitHub Plugin URI: https://github.com/imforza/wp-google-maps-api
  * GitHub Branch: master
+ * GitHub Contributors: sfgarza
  */
 
 // Exit if accessed directly.
